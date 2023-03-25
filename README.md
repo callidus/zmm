@@ -12,4 +12,4 @@ The time out and the GPIO pin can be set by modifying the program source. Comman
 
 ## Build
 
-`zig build` will work. If you are working on another computer and need to cross compile for the Pi, use `zig build -Dtarget=arm-linux` (thank you zig build awesomness). For a gotta-go-fast build use `zig build -Doptimize=FastRelease -Dtarget=arm-linux`
+`zig build` will work. If you are working on another computer and need to cross compile for the Pi, use `zig build -Dtarget=arm-linux` (thank you zig build awesomness). For a gotta-go-fast build use `zig build -Doptimize=ReleaseFast -Dtarget=arm-linux`
